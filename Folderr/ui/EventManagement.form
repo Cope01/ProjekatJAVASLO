@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="Folderr.ui.EventManagement">
+  <grid id="27dc6" binding="EventManagement" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+    <constraints>
+      <xy x="20" y="20" width="771" height="510"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <component id="4537c" class="javax.swing.JLabel" binding="Name">
+        <constraints/>
+        <properties>
+          <text value="NAME"/>
+        </properties>
+      </component>
+      <component id="23c24" class="javax.swing.JTextField" binding="textField1" default-binding="true">
+        <constraints/>
+        <properties>
+          <horizontalAlignment value="10"/>
+          <minimumSize width="200" height="500"/>
+        </properties>
+      </component>
+      <component id="c9bdd" class="javax.swing.JLabel" binding="Schedule">
+        <constraints/>
+        <properties>
+          <text value="Schedule Date"/>
+        </properties>
+      </component>
+      <component id="dd5d" class="javax.swing.JTextField" binding="textField2" default-binding="true">
+        <constraints/>
+        <properties/>
+      </component>
+      <component id="d54f" class="javax.swing.JLabel" binding="ScheduleTime">
+        <constraints/>
+        <properties>
+          <text value="Schedule Time"/>
+        </properties>
+      </component>
+      <component id="22dfb" class="javax.swing.JTextField" binding="textField3" default-binding="true">
+        <constraints/>
+        <properties/>
+      </component>
+      <component id="5d546" class="javax.swing.JButton" binding="CREATE">
+        <constraints/>
+        <properties>
+          <text value="CREATE"/>
+        </properties>
+      </component>
+      <component id="e44d7" class="javax.swing.JButton" binding="DELETE">
+        <constraints/>
+        <properties>
+          <text value="DELETE"/>
+        </properties>
+      </component>
+      <component id="48e03" class="javax.swing.JButton" binding="EDIT">
+        <constraints/>
+        <properties>
+          <text value="EDIT"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
